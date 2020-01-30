@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786241366349",
+    "firebase_url": "https://amendetix.firebaseio.com",
+    "project_id": "amendetix",
+    "storage_bucket": "amendetix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786241366349:android:dba7ca74292a06e7f5ef04",
+        "android_client_info": {
+          "package_name": "com.example.amedentix_with_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786241366349-k2i96mkkujpfqrnlv5jd0g7r3046klhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amedentix_with_firebase",
+            "certificate_hash": "9370e80e8e3f5a1d8b814229a3049123d5eaaf61"
+          }
+        },
+        {
+          "client_id": "786241366349-eu3bof2ooec7brpl0fqj3hjnt06uq3tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuKkFmvXjdpkJGF3PBCR7-mlw70VomLH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786241366349-eu3bof2ooec7brpl0fqj3hjnt06uq3tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

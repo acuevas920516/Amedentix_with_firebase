@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_app"
+    tools:context=".activities.ChooseTypeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/doctor"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/doctor"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:contentDescription="@string/doctor"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_ask"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+
+        <ImageButton
+            android:id="@+id/patient"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:adjustViewBounds="false"
+            android:src="@drawable/patient"
+            android:scaleType="centerInside"
+            android:background="@null"
+            app:layout_constraintTop_toBottomOf="@+id/doctor"
+            android:contentDescription="@string/patient"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_ask"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
